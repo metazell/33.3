@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #e0e0e0; /* Gray background */
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    margin: 20px 0;
+  }
+  
+  .number-facts {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .number-facts div p {
+    margin: 10px 0;
+    color: #333;
+  }
+  

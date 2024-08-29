@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #0b6623; /* Dark green resembling a casino table */
+    position: relative;
+    overflow: hidden; /* Ensure cards don't get cut off by the viewport */
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    margin: 20px 0;
+  }
+  
+  .card-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px; /* Card size */
+    height: auto;
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(0deg); /* Start centered */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button {
+    background-color: #ffd700; /* Gold button */
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #ffcc00;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
